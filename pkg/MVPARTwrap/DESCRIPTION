@@ -1,0 +1,11 @@
+Package: MVPARTwrap
+Version: 0.1-5
+Date: 2011-01-20
+Title: Wrap for mvpart function giving a more descriptive tree, an ordination triplot representing this tree, the discriminant species of each node (table 1 of Dea'th (2002)), and the indval species for each node and the final partition.
+Author: Marie-Helene Ouellette <marieheleneo@gmail.com>, with
+            contributions from Pierre Legendre <pierre.legendre@umontreal.ca>.
+Maintainer: Marie-Helene Ouellette <marieheleneo@gmail.com>
+Depends: Hmisc, mvpart, rdaTest, labdsv, vegan, fBasics, packfor,ade4
+Description: The main function of this package, MRT, gives access to the following information : the proper cluster membership location in the tree, the discriminant species of each cluster, the indval species for each node and the final partition the tree, nodes at the proper level of R2 (1-relative error), the total species variance partitionned by species, by the tree, and by the splits of the tree, plus two different graphic representation of the final model, in the form of a tree and an ordination triplot.
+License: GPL (>= 2)
+URL: http://www.r-project.org
