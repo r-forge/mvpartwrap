@@ -80,7 +80,7 @@ CasMRTR2<-function(obj,NodeADMIT=obj$where1)
 
 	# Initial diagram is 1 VSG 1.
 	par(mar=c(1,1,1,1))
-	plot(c(0,1),c(0,1),type='n',xlab='',ylab='',xaxt='n',yaxt='n',bty='n')
+	plot(c(0,1),c(0,1),type='n',xlab='',ylab='',xaxt='n',yaxt='n',bty='n',asp=1)
 	# Square borders
 	lines(c(0,0),c(0,1))
 	lines(c(0,1),c(0,0))
